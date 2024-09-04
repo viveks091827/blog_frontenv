@@ -15,13 +15,13 @@ const About = () => {
       <h2>Team</h2>
       <ul className={styles.teamList}>
         <li>
-          <span className={styles.name}>Gull</span> — Trader and Quant.
+          <span className={styles.name}>Member1</span> — Trader and Quant.
         </li>
         <li>
-          <span className={styles.name}>Narender</span> — Algorithmic Trading Software Developer
+          <span className={styles.name}>Member2</span> — Algorithmic Trading Software Developer
         </li>
         <li>
-          <span className={styles.name}>Vivek</span> — Full Stack Developer
+          <span className={styles.name}>Member3</span> — Full Stack Developer
         </li>
       </ul>
       <h2>Contact Us</h2>
