@@ -1,0 +1,42 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+.h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+
+  .confirmationMessage {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+.p {
+    margin-bottom: 10px;
+  }
+
+
+
+.button {
+    border-radius: .4rem; 
+    padding: .2rem .6rem;
+    background-color: #E7BF18;
+    color: black;
+}
+
+.input {
+	background-color: #e7e3e3;
+	border: none;
+	padding: .5rem 2rem;
+	margin: 1rem auto;
+	width: 70%;
+    border-radius: .3rem;
+}

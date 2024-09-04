@@ -1,0 +1,74 @@
+.navbarMenu {
+    padding-top: 1rem;
+
+}
+
+.logo {}
+
+.navContent a {
+    font-size: 1.1rem;
+}
+
+.navContent {
+    margin: 0rem 1.5rem;
+
+}
+
+
+.navButtons {
+    margin: 0rem .5rem;
+    margin-top: 1rem;
+
+}
+
+.navbarStyle {
+    background: linear-gradient(to right, #FFFFFF, #FFFFFF);
+    border: solid rgba(179, 179, 179, 0.815) .1rem;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+
+
+}
+
+.authButtons {
+    display: flex;
+}
+
+.authButtons button {
+    height: 2.5rem;
+    width: 6rem;
+}
+
+
+.roundedBorder {
+    height: 4rem;
+    width: 4rem;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.9);
+    border-radius: 100%;
+    color: red
+}
+
+.separator {
+    width: 1px;
+    height: 5rem;
+    background-color: #c4c4c4;
+    margin: 0rem 4rem;
+}
+
+
+@media (max-width: 992px) {
+    .authButtons {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .authButtons button {
+        margin-top: 1rem;
+    }
+
+    .separator {
+        display: none;
+    }
+}

@@ -1,0 +1,86 @@
+.footer {
+    background-color: #141515;
+    color: white;
+    width: 100%;
+}
+
+.list a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.list a:visited {
+    text-decoration: none;
+    color: white;
+
+}
+
+.list a:hover {
+    text-decoration: none;
+    color: #F8D43D;
+}
+
+.list a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list{
+   align-items: left;
+  
+}
+
+.innerContainer {
+  
+} 
+
+.innerContainer ul {
+
+}
+
+
+.container {
+   padding: 1rem 0rem; 
+}
+
+.socialLinks a{
+    margin: 0 .5rem;
+}
+
+.socialLinks div {
+    margin: 1rem;
+}
+
+.socialLinks div img {
+    margin: 0rem .5rem;
+}
+
+.listStyle p {
+    width: 15rem;
+}
+
+.rowFirst {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.listStyle div {
+    display: flex;
+    justify-content: center;
+}
+
+.rowSecond {
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+}

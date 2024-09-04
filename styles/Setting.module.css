@@ -1,0 +1,19 @@
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F8D43D;
+    color: #000;
+    cursor: pointer;
+    margin: 0rem .5rem;
+}
+
+.button:hover {
+    background-color: #E7BF18;
+    margin: 0rem .5rem;
+}
+
+.imageUpload {
+    margin: 1rem 0rem;
+}
+

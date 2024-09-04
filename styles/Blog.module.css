@@ -1,0 +1,11 @@
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}  
+
+.container {
+  min-height: 35rem;
+} 
+

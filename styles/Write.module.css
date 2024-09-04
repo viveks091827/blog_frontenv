@@ -1,0 +1,33 @@
+.container {
+ 
+  max-width: 60rem;
+  min-height: 35rem;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  font-family: arial;
+  text-decoration: none;
+  overflow: scroll;
+}
+
+.blogTitle {
+    border-color: rgba(151, 151, 151, 0.363);
+    border-width: .12rem;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0rem 0rem 2rem 0rem;
+    box-sizing: border-box;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F8D43D;
+  color: #000;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #E7BF18;
+}

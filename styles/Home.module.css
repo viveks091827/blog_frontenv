@@ -1,0 +1,103 @@
+  .imageContainer {
+    position: relative;
+    height: 30rem;
+    background-image: url("/homepage.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+  .contentOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+    background-color: white;
+    padding: 1rem;
+  }
+
+
+  .contentOverlay h4 {
+    color: black;
+  }
+
+  .contentOverlay button {
+    padding: 1rem;
+    background-color: #F8D43D;
+    color: #000;
+    font-size: 1rem;
+    border: none;
+    width: 10rem;
+  }
+
+  .contentOverlay button:hover {
+    padding: 1rem;
+    background-color: #E7BF18;
+  }
+
+
+
+  .about {
+    background-color: rgb(0, 117, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  .about h1 {
+    color: white;
+  }
+
+  .aboutContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .strategy div {
+    padding: 1rem 0rem;
+  }
+
+
+  .aboutContent button {
+    padding: 10px 20px;
+    background-color: #02135c;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    width: 10rem;
+  }
+
+  .aboutContent button:hover {
+    background-color: #01113d;
+  }
+
+
+
+  @media (max-width: 992px) {
+
+
+    .aboutContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .strategy {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .strategyImage img {
+      width: 15rem;
+      height: 15rem;
+    }
+
+    
+
+  }
